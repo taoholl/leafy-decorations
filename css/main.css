@@ -6,13 +6,13 @@ html {
   background-color: #588477;
   border-bottom: 3px solid #2d5a4d;
   border-top: 3px solid #2d5a4d;
-  background-image: url("../images/pattern.svg");
-  background-size: 40px auto;
+  background-image: url("../images/leaf-icon.svg");
+  background-size: 70px auto;
 }
 
 .logo {
   text-align: center;
-  color:#fff;
+  color: #fff;
 }
 
 .nav {
@@ -28,25 +28,33 @@ html {
 }
 
 .nav a:hover {
+  background-color: #fff;
+  border-bottom: 3px solid #2d5a4d;
+  border-top: 3px solid #2d5a4d;
+  background-image: url("../images/leaf-bg.svg");
+  background-size: 40px auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #145b1d;
 
 }
 
 .banner {
-background-image: url("../images/banner.jpg");
-background-image: linear-gradient(to bottom, transparent, rgba(16, 52, 41, 0), rgba(16, 52, 41, .8)), url("../images/banner.jpg");
-background-position: bottom;
-background-repeat: no-repeat;
-background-size: cover;
-border-bottom: 2px solid #2d5a4d;
+  background-image: url("../images/banner.jpg");
+  background-image: linear-gradient(to bottom, transparent, rgba(16, 52, 41, 0), rgba(16, 52, 41, .8)), url("../images/banner.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 2px solid #2d5a4d;
 }
 
 .banner-content {
-color: #fff;
-background-image: url("../images/whiteleaves.svg");
-background-repeat: no-repeat;
-padding-top: 300px;
-background-size: 95px;
-background-position: 20px 200px;
+  color: #fff;
+  background-image: url("../images/two-leaves.svg");
+  background-repeat: no-repeat;
+  padding-top: 300px;
+  background-size: 95px;
+  background-position: 20px 200px;
 }
 
 @media only screen and (min-width: 60em) {
