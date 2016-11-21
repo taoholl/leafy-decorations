@@ -3,11 +3,16 @@ html {
 }
 
 .masthead {
-
+  background-color: #588477;
+  border-bottom: 3px solid #2d5a4d;
+  border-top: 3px solid #2d5a4d;
+  background-image: url("../images/pattern.svg");
+  background-size: 40px auto;
 }
 
 .logo {
   text-align: center;
+  color:#fff;
 }
 
 .nav {
@@ -16,6 +21,10 @@ html {
 
 .nav a {
   text-decoration: none;
+  border: 3px solid #2d5a4d;
+  color: #fff;
+  border-radius: 10px;
+  background-color: #467366;
 }
 
 .nav a:hover {
@@ -23,11 +32,21 @@ html {
 }
 
 .banner {
-
+background-image: url("../images/banner.jpg");
+background-image: linear-gradient(to bottom, transparent, rgba(16, 52, 41, 0), rgba(16, 52, 41, .8)), url("../images/banner.jpg");
+background-position: bottom;
+background-repeat: no-repeat;
+background-size: cover;
+border-bottom: 2px solid #2d5a4d;
 }
 
 .banner-content {
-
+color: #fff;
+background-image: url("../images/whiteleaves.svg");
+background-repeat: no-repeat;
+padding-top: 300px;
+background-size: 95px;
+background-position: 20px 200px;
 }
 
 @media only screen and (min-width: 60em) {
